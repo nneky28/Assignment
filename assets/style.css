@@ -1,0 +1,68 @@
+
+
+body {
+  background-color: #000;
+  font-family: sans-serif;
+  line-height: 1.7;
+  font-size: 16px;
+
+}
+.hero-text{
+  text-align: center;
+  padding: 35px;
+  margin-top: 200px;
+  font-size:80px;
+  font-family: 700;
+  letter-spacing: -10px;
+
+}
+@media only screen and (max-width: 320px) {
+  .hero-text {
+    font-size: 3em;
+  }
+}
+
+.blue {
+  text-transform: uppercase;
+  color: blue;
+}
+.red {
+  text-transform: uppercase;
+  color: red;
+}
+.green {
+  text-transform: uppercase;
+  color: green;
+}
+.yellow {
+  text-transform: uppercase;
+  color: yellow;
+}
+
+
+.form-floating{
+  border: 1px solid white;
+  padding: 20px;
+  width: 60%;
+  margin-left: 250px;
+  border-radius: 2em;
+  height: 20px;
+  background-color: #fff;
+}
+@media only screen and (max-width: 320px) {
+  .form-floating {
+    font-size: 1em;
+    width: 85%;
+    margin-left: -1px;
+    margin-right: -2px;
+  }
+}
+label {
+  margin-left: 30px;
+  font-size: 20px;
+  
+}
+
+.material-icons-1{
+  align-items: flex-end;
+}
